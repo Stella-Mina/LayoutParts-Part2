@@ -1,2 +1,23 @@
 @charset "UTF-8";
 
+.photo-img {
+  height: 500px;
+}
+
+.background-repeat {
+  background: url(../../image/coffee-background.jpg);
+}
+
+.background-norepeat {
+  background: url(../../image/coffee-background.jpg) no-repeat;
+}
+
+.background-norepeat-cover {
+  background: url(../../image/coffee-background.jpg) no-repeat center/cover;
+}
+
+.background-norepeat-contain {
+  background: url(../../image/coffee-background.jpg) no-repeat center/contain;
+}
+
+/* スラッシュの順番…　background-position / background-sizeの順に指定する！no-repeatやtop left --pxなどそのほかは半角あければ実装できる */

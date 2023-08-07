@@ -1,1 +1,39 @@
 @charset "UTF-8";
+
+a {
+  text-decoration: none;
+}
+
+header {
+  background: #388bff;
+}
+
+.conteiner {
+  max-width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.logo a {
+  color: #f2ff7b;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav li {
+  padding: 30px;
+}
+
+nav li a {
+  color: #ffffff;
+}
