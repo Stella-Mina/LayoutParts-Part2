@@ -6,6 +6,8 @@ a {
 
 header {
   background: #388bff;
+  position: fixed;/* header scrollしたときの固定 */
+  width: 100%;
 }
 
 .conteiner {
@@ -31,6 +33,7 @@ nav ul {
 }
 
 nav li {
+  list-style: none;
   padding: 30px;
 }
 
