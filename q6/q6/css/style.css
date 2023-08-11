@@ -10,17 +10,17 @@ header {
   width: 100%;
 }
 
-.conteiner {
+.container {
   max-width: 1100px;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
+  align-items: center;/* 要素の高さ中央寄せ */
 }
 
 .logo {
   font-size: 24px;
   font-weight: bold;
-  padding-top: 30px;
 }
 
 .logo a {
@@ -29,7 +29,6 @@ header {
 
 nav ul {
   display: flex;
-  align-items: center;
 }
 
 nav li {

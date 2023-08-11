@@ -154,6 +154,7 @@
   padding: 20px;
   width: 300px;
   border: 1px solid #000;
+  transition: .5s;
 }
 
 .check--sample li:nth-child(2),
@@ -163,7 +164,6 @@
 
 .check--sample li:hover {
   box-shadow: 0px 0px 10px 3px #424242d0;
-  transition: .5s;
 }
 
 .card-img {

@@ -22,7 +22,7 @@
 
 .balloon:before {
   bottom: -60px;
-  border-top: solid 30px #8f5a0a;
+  border-top: 30px solid #8f5a0a;
 }
 
 .balloon:after {
